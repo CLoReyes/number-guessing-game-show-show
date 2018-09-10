@@ -2,6 +2,7 @@
 
 import java.util.Scanner;
 
+
 public class woooooooo
 
 
@@ -9,16 +10,8 @@ public class woooooooo
 	{
 		public static void main(String[] args)
 			{
-			
-				greetPlayer1();
-				generateRandomNumber();
-				askForUserGuess();
-				evaluateGuess();
-			}
+				
 		
-		public static void greetPlayer1()
-			
-			{
 				Scanner sc = new Scanner (System.in);
 				System.out.println("So what they call you on the streets?");
 				String name = sc.nextLine();
@@ -38,14 +31,11 @@ public class woooooooo
 							{
 								System.out.println("Too bad you're playing anyway");
 							}
-					}
+			
 			
 		
-		{
+		
 				
-			
-				
-						
 				boolean restart = true;
 				while (restart)
 					{
@@ -152,29 +142,7 @@ public class woooooooo
 	
 		
 			}
-
-		private static void evaluateGuess()
-			{
-				// TODO Auto-generated method stub
-				
-			}
-
-		private static void askForUserGuess()
-			{
-				// TODO Auto-generated method stub
-				
-			}
-
-		private static void generateRandomNumber()
-			{
-				// TODO Auto-generated method stub
-				
-			}
-
-		private static void greetPlayer()
-			{
-				// TODO Auto-generated method stub
-				
-			}
-
+		
 	}
+
+
